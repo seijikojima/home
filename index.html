@@ -3,31 +3,58 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=IBM Plex">
     <title>Document</title>
 </head>
 <body>
-    <h1>Seiji Kojima</h1>
-    <h2>Designer</h2>
-    <div><a href="https://seijikojima.github.io/technology/">technology</a></div>
-    <div><a href="https://seijikojima.github.io/application/">application</a></div>
-    <div><a href="https://seijikojima.github.io/reference/">reference</a></div>
-    <div><a href="https://seijikojima.github.io/blog/">blog</a></div>
+    
+    
+    <div class="name">Seiji Kojima</div>
+    <div class="job_title">Designer</div>
+    
+    <div class="contents_frame">
+        <div><a href="https://seijikojima.github.io/application/">Application</a></div>
+        <div><a href="https://seijikojima.github.io/technology/">Technology</a></div>
+        <div><a href="https://seijikojima.github.io/blog/">Blog</a></div>
+        <div><a href="https://seijikojima.github.io/reference/">Reference</a></div>
+        <div><a href="https://github.com/seijikojima">Github</a></div>
+    </div>
 </body>
 </html>
 
 <style>
 
 
+ .name {
+     margin : 20px 0 0 20px;
+     font-size : 50px;
+     font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    /* font-family: Comic Sans MS;
+    font-family: Titillium Web; */
+    /* font-family: Roboto; */
+}
 
+.job_title {
+    margin : 0 0 0 20px;
+    font-size : 40px;
+    font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
 
+.contents_frame {
+    margin : 30px 0 0 20px;
+    font-size : 20px;
+    font-family:  "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+}
 
-body { 
+body {
     background-image: url(./img/sakyu.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
     color : #C7B3A0;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 
 a {
