@@ -1,9 +1,9 @@
 ## homepage
 https://seijikojima.github.io/home/
 
-### technology
+### application
 
-### books
+### technology
 
 ### reference
 
